@@ -32,10 +32,10 @@
     </header>
     <form id="formulaire">
         <label for="name">Nom de famille</label>
-        <input type="text" name="name" id="name" placeholder="Entrez votre nom" required>
+        <input type="text" name="name" id="name" pattern="[a-zA-Z]+" placeholder="Entrez votre nom" required>
         <br>
         <label for="firstname">Prénom</label>
-        <input type="text" name="prénom" id="firstname" placeholder="Entrez votre prénom" required>  
+        <input type="text" name="prénom" id="firstname" pattern="[a-zA-Z]+" placeholder="Entrez votre prénom" required>  
         <br>
         <label for="age">Age</label>
         <input type="text" name="age" id="age" placeholder="Entrez votre âge" pattern="[0-9]+"  maxlength="3" required>
